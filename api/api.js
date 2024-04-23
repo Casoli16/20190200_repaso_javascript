@@ -20,7 +20,6 @@ const pokemonApi = async () => {
                 <p class="fw-light">Cantante</p>
                 <img src="${imagenPokemon}" width="150px">
             </div>
-            <button class="btn btn-info text-center mt-4 text-light" onclick="numeroRandom()">Random</button>
             </div>
         `;
             document.getElementById('pokemonCarta').innerHTML = pokemonInfoHTML;
