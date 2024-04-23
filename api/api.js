@@ -17,18 +17,22 @@ const pokemonApi = async () => {
             <div class="container col-4 text-center">
             <div class="container shadow text-center p-3 rounded-4">
                 <h3 class="fw-semibold">${nombrePokemon}</h3>
-                <p class="fw-light">Cantante</p>
+                <p class="fw-light">Pokemón</p>
                 <img src="${imagenPokemon}" width="150px">
             </div>
             </div>
         `;
             document.getElementById('pokemonCarta').innerHTML = pokemonInfoHTML;
+            
         })
         .catch(error => console.error(error));
-
-
 }
 
-numeroRandom();
-pokemonApi();
+const button = document.getElementById('btnPokemon');
+
+button.addEventListener('click', () => {
+    numeroRandom();
+    pokemonApi();
+  });
+  
 
