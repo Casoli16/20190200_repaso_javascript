@@ -10,44 +10,44 @@ const cantantes  = [
         genero: 'Pop'
     },
     {
-        nombre: 'Michael Jackson',
-        edad: 35,
+        nombre: 'Olivia Rodrigo',
+        edad: 27,
         genero: 'Pop'
     },
     {
-        nombre: 'Michael Jackson',
-        edad: 35,
-        genero: 'Pop'
+        nombre: 'Rosse',
+        edad: 25,
+        genero: 'K-Pop'
     },
     {
-        nombre: 'Michael Jackson',
-        edad: 35,
-        genero: 'Pop'
+        nombre: 'Lissa',
+        edad: 27,
+        genero: 'K-Pop'
     },
     {
-        nombre: 'Michael Jackson',
-        edad: 35,
-        genero: 'Pop'
+        nombre: 'Jennie',
+        edad: 25,
+        genero: 'K-Pop'
     },
     {
-        nombre: 'Michael Jackson',
-        edad: 35,
-        genero: 'Pop'
+        nombre: 'Jisoo',
+        edad: 21,
+        genero: 'K-Pop'
     },
     {
-        nombre: 'Michael Jackson',
-        edad: 35,
-        genero: 'Pop'
+        nombre: 'Kim taehyung',
+        edad: 28,
+        genero: 'K-Pop'
     },
     {
-        nombre: 'Michael Jackson',
-        edad: 35,
-        genero: 'Pop'
+        nombre: 'JungKook',
+        edad: 24,
+        genero: 'K-Pop'
     },
     {
-        nombre: 'Michael Jackson',
-        edad: 35,
-        genero: 'Pop'
+        nombre: 'Jimin',
+        edad: 26,
+        genero: 'K-Pop'
     },
 ];
 
@@ -58,8 +58,8 @@ const cantantes  = [
         <div class="col-sm-12 col-md-4 py-4">
         <div class="container shadow text-center p-3 rounded-4">
             <div class="row d-flex align-items-center">
-                <div class="col-auto text-center">
-                    <img src="../img/micro.svg" width="40px">
+                <div class="mb-4">
+                    <img src="../img/karaoke.png" width="70px">
                 </div>
                 <div class="col">
                     <h3 class="fw-semibold">${carta.nombre}</h3>
@@ -68,9 +68,9 @@ const cantantes  = [
             </div>
             <hr>
             <p class="bg-success text-light rounded-4 p-2 fw-semibold">Genéro</p>
-            <p>${carta.genero}</p>
+            <p class="fw-semibold">${carta.genero}</p>
             <p class="bg-success text-light rounded-4 p-2 fw-semibold">Edad</p>
-            <p>${carta.edad} años</p>
+            <p class="fw-semibold">${carta.edad} años</p>
         </div>
     </div>`;
     cargarTarjeta.innerHTML += cartasHtml;
